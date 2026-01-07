@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Farmhouse Booking Form</title>
+</head>
+
+<body>
+
+<h1>LemonTree Farmhouse</h1>
+<!-- nav bar -->
+<a href="#">Home</a> |
+<a href="#">Gallery</a> |
+<a href="#">Booking</a> |
+<a href="#">Contact</a>
+
+<hr>
+
+<h2>About LemonTree Farmhouse</h2>
+<p>LemonTree Farmhouse is a peaceful getaway surrounded by lush greenery and fresh air.It is an ideal place for family vacations, weekend parties, and corporate outings.Enjoy spacious rooms, open lawns, and modern amenities designed for comfort and relaxation.Experience nature, privacy, and luxury all in one place.</p>
+
+<hr>
+
+<h2>Confirm Your Booking</h2>
+
+<form action="https://wa.me/9573921941" method="get">
+
+    <fieldset>
+        <legend>Booking Information</legend>
+
+        <label>Full Name:</label><br>
+        <input type="text" name="name" required>
+        <br><br>
+
+        <label>Email:</label><br>
+        <input type="email" name="email" required>
+        <br><br>
+
+        <label>Mobile Number:</label><br>
+        <input type="tel" name="phone" pattern="[0-9]{10}" required>
+        <br><br>
+
+        <label>Check in Date:</label><br>
+        <input type="date" name="checkin" required>
+        <br><br>
+
+        <label>Check out Date:</label><br>
+        <input type="date" name="checkout" required>
+        <br><br>
+
+        <label>Number of Guests:</label><br>
+        <input type="number" name="guests" min="1" max="20" required>
+        <br><br>
+
+        <label>Room Type:</label><br>
+        <select name="room" required>
+            <option value="">--Select--</option>
+            <option>Standard</option>
+            <option>Deluxe</option>
+            <option>Private Villa</option>
+        </select>
+        <br><br>
+
+        <label for="requests">Any Requests:</label><br>
+        <textarea id="requests" name="requests" rows="4"></textarea>
+        <br><br>
+
+        <input type="submit" value="Book Now">
+
+    </fieldset>
+
+</form>
+
+<hr>
+
+<h2>Amenities</h2>
+<ul>
+    <li>Swimming Pool</li>
+    <li>Free Parking</li>
+    <li>24/7 Power Backup</li>
+    <li>Outdoor Lawn & Party Area</li>
+    <li>Wi-Fi Connectivity</li>
+</ul>
+
+<hr>
+
+<!-- map integration -->
+<h2>Location</h2>
+<iframe 
+    src="https://www.google.com/maps?q=Hyderabad&output=embed"
+    width="100%"
+    height="300"
+    loading="lazy">
+</iframe>
+
+<hr>
+
+<!-- footer -->
+<h2>Contact Information</h2>
+<p>
+Phone: 9573921941 <br>
+📧 Email: info@lemontreefarmhouse.com
+</p>
+
+<footer>
+    <p>&copy; 2026 LemonTree Farmhouse</p>
+</footer>
+
+</body>
+</html>

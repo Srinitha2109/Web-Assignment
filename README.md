@@ -13,3 +13,7 @@ In the final task, I developed a responsive product list page using CSS Grid. Th
 Purchase order and invoice generation(Javascript)
 
 This is a JavaScript-based Purchase Order and Invoice Management system that automates PO creation, invoice generation, and payment tracking. It calculates trainer payments based on payment type and duration and generates invoices only after training completion. The system assigns due dates, detects overdue invoices, and simulates email alerts for pending payments.
+
+Finance Management System (Javascript)
+
+This is a Financial system implemented using JavaScript OOP concepts such as inheritance, encapsulation, and polymorphism. It supports multiple account types (Savings, Checking, Investment), transaction tracking, investments, and insurance management.
